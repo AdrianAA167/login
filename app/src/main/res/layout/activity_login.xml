@@ -8,11 +8,13 @@
     tools:context=".RegisterActivity">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/gambar_1"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:src="@drawable/group_1"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="-64dp"
         android:id="@+id/L_img_1"
         />
     <ImageView
@@ -35,9 +37,9 @@
         android:id="@+id/L_txt_1"
         />
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/gambar_3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/gbr_2"
         android:layout_below="@id/L_txt_1"
         android:layout_centerHorizontal="true"
         android:id="@+id/L_img_3"

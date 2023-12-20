@@ -8,13 +8,15 @@
     tools:context=".RegisterActivity">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/gambar_1"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
         android:id="@+id/R_img_1"
-        />
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="-64dp"
+        android:src="@drawable/group_1" />
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -99,7 +101,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Regis"
+        android:text="Registrasi"
         android:layout_below="@id/ly_1"
         android:layout_centerHorizontal="true"
         android:background="@drawable/button_shape"
